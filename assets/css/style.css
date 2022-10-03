@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #73ca1c;
+}
+/* This is my header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #300be8;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .goodies {
+    color: #21c362;
+}
+
+/* This affects the navigation bar- "About Me, Portfolio, Contact, Resume */
+.header nav {
+    padding-top: 40px;
+    margin-right: 30px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+} */
+
+header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* --------------------------------------------- */
+
+
+/* The "a" tags are hyperlinks */
+a {
+    color: #be28d8;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* floats take images out of the flow */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+} 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.content-section img {
+    max-height: 200px;
+}
+
+/* This displays the three parts of portfolio as cards and responsive to media queries
+*/
+.content-section {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 100%;
+}
+
+.content-section header {
+  padding: 20px;
+}
+
+.content-section p {
+  text-align: left;
+}
+
+.content-section img {
+  width: 100%;
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    .content-section {
+      width: 50%;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+ 
+  }
+
+
+  /* Why won't this .footer ul selector turn my footer into a horizontal list?? */
+.linefy ul {
+    list-style:none;
+    display:inline-block
+}
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
