@@ -3,46 +3,7 @@
 body {
     background-color: #73ca1c;
 }
-/* This is my header */
-.header {
-    padding: 5%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #300be8;
-    display: flex;
-    justify-content:space-between;
-}
 
-.header h1 {
-    display: inline-block;
-    font-size: 40px;
-    color: yellow
-}
-/* applies to my selfie */
-.header img {
-  max-height: 200px;
-  float: left;
-}
-
-
-
-/* This affects the navigation bar- "About Me, Portfolio, Contact, Resume */
-nav {
-    padding-top: 40px;
-    margin-right: 30px;
-    /* float: right; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    white-space: nowrap;
-} 
-
-
-nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-}
-/* --------------------------------------------- */
 /* makes list items go horizontally */
 li {
     display: inline;
@@ -72,6 +33,42 @@ p {
     float: right;
     margin-left: 5%;
 } 
+
+
+/* This is my header class which contains the nav element*/
+.header {
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #300be8;
+    display: flex;
+    justify-content:space-between;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    color: yellow
+}
+.header img {
+  max-height: 200px;
+  float: left;
+}
+nav {
+  padding-top: 40px;
+    margin-right: 30px;
+    /* float: right; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    white-space: nowrap;
+} 
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
 .content {
     width: 90%;
     display: inline-block;
@@ -93,16 +90,12 @@ p {
 .content-section img {
     max-height: 200px;
 }
-
-
 .content-section header {
   padding: 20px;
 }
-
 .content-section p {
   text-align: left;
 }
-
 .content-section img {
   width: 300px;
   height: 400px;
@@ -110,15 +103,15 @@ p {
 /* makes the  word portfolio bigger */
 #portfolio h2 {font-size:500%;}
 
+/* makes my first portfolio item bigger */
+#Citizen-Giants  {min-height: 500px;
+}
+
   #contact-me {
-   /* trying display flex and justify content to add space between li items */
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
-
-
 #contact-me { 
     list-style:none;
     display: inline-block; 
