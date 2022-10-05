@@ -15,7 +15,7 @@ li {
 
 /* The "a" tags are hyperlinks */
 a {
-    color: #be28d8;
+    color: yellow
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ p {
     padding: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #300be8;
+    /* color: #300be8; */
     display: flex;
     justify-content:space-between;
 }
@@ -70,7 +70,7 @@ nav ul {
 
 
 .content {
-    width: 90%;
+   width: 90%;
     display: inline-block;
     margin-left: 4%;
     margin-right: 4%;
@@ -79,8 +79,8 @@ nav ul {
     margin-bottom: 5%;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #b82cc5;
-    color: #ffffff;
+    /* background-color: #b82cc5; */
+    color: #3a2810;
       border-style: solid;
     border-width: 2px;
    padding: 2%;
