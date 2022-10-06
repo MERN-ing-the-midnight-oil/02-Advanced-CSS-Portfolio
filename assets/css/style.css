@@ -2,6 +2,7 @@
 
 body {
     background-color: #73ca1c;
+    margin-bottom: 150px
 }
 
 /* makes list items go horizontally */
@@ -43,6 +44,7 @@ p {
     /* color: #300be8; */
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 .header h1 {
     display: inline-block;
@@ -103,9 +105,39 @@ nav ul {
 /* makes the  word portfolio bigger */
 #portfolio h2 {font-size:500%;}
 
-/* makes my first portfolio item bigger */
-#Citizen-Giants  {min-height: 500px;
+/* This makes my_flex_container flexible */
+.my_flex_container {
+  display: flex;
+  flex-direction: column;
+
 }
+
+#Citizen-Giants{
+  flex-basis: 600px;
+   /* flex-grow: 100;
+  flex-shrink: 0; */
+}
+
+#Heirloom{
+  flex-basis: 100px;
+  /* flex-grow: 1;
+  flex-shrink: 2; */
+}
+#Glowly{
+  flex-basis: 100px;
+  /* flex-grow: 1;
+  flex-shrink: 2; */
+}
+#Solar{
+  flex-basis: 100px;
+  /* flex-grow: 1;
+  flex-shrink: 2; */
+}
+
+
+/* makes my first portfolio item bigger without using flex */
+ /* #Citizen-Giants  {min-height: 500px; 
+} */
 
   #contact-me {
     display: flex;
@@ -134,7 +166,7 @@ nav ul {
     }
   } */
   
-  /* Cards are stacked on top of each other at 768px or smaller (about equal to tablets in portrait or phones in landscape)*/
+  /* Cards are stacked on top of each other at 768px or smaller (about equal to tablets in portrait or phones in landscape) also some pictures will dissapear*/
   @media screen and (max-width: 768px) {
     .content-section img {
       display: none;}
